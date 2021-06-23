@@ -76,6 +76,9 @@ html, body {
 }
 
 .hyperlinks {
+    position: absolute;
+    top: 0px;
+    right: 0px;
     color: black;
     list-style-type: none;
     margin: 0;
@@ -89,7 +92,7 @@ html, body {
 }
 
 li {
-    float: right;
+    float:left;
 }
 
 li a {
@@ -99,7 +102,7 @@ li a {
     padding: 16px;
 }
 
-.portfolio,
+/* .portfolio,
 .portfolio1,
 .portfolio2 {
     text-align: center;
@@ -107,15 +110,13 @@ li a {
     flex-direction: bottom;
 
 
-}
+} */
 
 .portfolio,
 .portfolio1,
 .portfolio2 {
 
-    position: relative;
-    float: right;
-    display: flex;
+    
     align-items: left;
     right: 0px;
     background-color: var(--cbj-color);
@@ -146,8 +147,10 @@ li a {
 }
 
 .box {
-    display: flex;
-    align-items: left;
+    /* display: flex;
+    align-items: left; */
+    position: relative;
+    left: 10px;
 
 }
 
@@ -157,6 +160,11 @@ li a {
     display: block;
     text-align: initial;
     margin: 10px;
+}
+
+.about {
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #page-container {
@@ -183,14 +191,14 @@ li a {
 
 }
 
-.resume {
+/* .resume {
     margin: 10px;
     height: 400px;
     width: 700px;
     text-align: center;
     font-size: 100px;
     font-weight: bold;
-}
+} */
 
 .website {
     height: 200px;
@@ -204,7 +212,7 @@ li a {
     height: 200px;
     width: 400px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 .applications {
