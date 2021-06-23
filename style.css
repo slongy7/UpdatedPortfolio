@@ -62,7 +62,6 @@ html, body {
     position: relative;
     width: 250px;
     height: 350px;
-
     
 }
 
@@ -72,6 +71,8 @@ html, body {
     opacity: 0.4;
     height: 100%;
     width: 100%;
+    size:unset;
+    
     
 }
 
@@ -162,9 +163,17 @@ li a {
     margin: 10px;
 }
 
+#projects {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
 .about {
-    font-size: 25px;
-    font-weight: bold;
+    text-align:center;
+    font-weight: bolder;
+    font-size: 40px;
+    
 }
 
 #page-container {
