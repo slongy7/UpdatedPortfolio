@@ -7,9 +7,9 @@ This project is to update my portfolio which was assigned earlier in the class. 
 
 ##Screen Shots
 
+![E8CC7E97-BF01-4E6A-967E-2DA9517D4E1B](https://user-images.githubusercontent.com/79759725/123160350-10ce1680-d43c-11eb-918a-c0c245c1018e.png)
 
-
-##License
+![C801E64A-1998-4CDC-B8EC-EFBD6A50FF04](https://user-images.githubusercontent.com/79759725/123160388-1d526f00-d43c-11eb-8014-4ca70b695ae5.png)##License
 
 The MIT License (MIT)
 
